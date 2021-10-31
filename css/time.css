@@ -1,0 +1,53 @@
+@charset "utf-8";
+.return {
+    font-size: 23px;
+    line-height: 25px;
+    color: #333;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.return:hover {
+    text-decoration: none;
+}
+
+#clock {
+    width: 600px;
+    height: 600px;
+    background: url('../img/clock.jpg') no-repeat center;
+    margin: 0 auto;
+    position: relative;
+}
+
+#hour {
+    width: 600px;
+    height: 600px;
+    background: url('../img/hour.png') no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#minute {
+    width: 600px;
+    height: 600px;
+    background: url('../img/minute.png') no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#second {
+    width: 600px;
+    height: 600px;
+    background: url('../img/second.png') no-repeat center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#h1 {
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+.itembg {
+    width: 80px;
+    height: 40px;
+    background-color: #2bc3ac;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 160px;
+}
